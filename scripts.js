@@ -14,7 +14,7 @@ document.getElementById('trackerForm').addEventListener('submit', function(event
 });
 
 function sendToGoogleSheets(name, product, balance) {
-    const url = 'https://script.google.com/macros/s/AKfycbwHm0qzDLRq_8IYHl_1hh31aAQn1pJlYXK8pAarwfAsLa6GSb27kfgn0UGghDjXT0_K/exec';
+    const url = 'https://script.google.com/macros/s/AKfycbxM_-cwMw1S516fRwmU0aMME5IGt2-9T7k59XIW28XwRl7U97JDj0oMSh5HbZtm5Ks_/exec';
     const data = { name, product, balance };
 
     fetch(url, {
